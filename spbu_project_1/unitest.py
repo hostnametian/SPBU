@@ -28,6 +28,7 @@ class TestCase(unittest.TestCase):
 
 
     # 为空的
+    # Пустой документ
     def test_blank_html(self):
         url = "https://spbu.ru/sites/all/themes/spbgu/img/rector.svg"
         result = html_parse(url)
